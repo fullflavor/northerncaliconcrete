@@ -1,0 +1,40 @@
+/* Text Elements */
+
+h1.heading-1 {
+  color: rgba(255, 255, 255, .87);
+  text-align: center;
+}
+
+h1.heading-2 {
+  margin-right: 0;
+  padding-top: 49px;
+  color: rgba(218, 50, 2, .87);
+  text-align: center;
+}
+
+a.link-text.btn.btn-large.waves-effect {
+  display: inline-block;
+  margin-left: 650px;
+  padding-left: 27px;
+  background-color: #ab2c05;
+  text-align: center;
+
+  justify-self: center;
+}
+
+/* Layout Elements */
+
+body.body-1 {
+  background-image: url('../concrete%20unsplash.jpg'), url('https://cdn.coffeecupcloud.com/appresources/v1/common/background_online_image.png'), url('https://cdn.coffeecupcloud.com/appresources/v1/common/background_online_image.png');
+  background-attachment: scroll, scroll, scroll;
+  background-position: left top, left top, left top;
+  background-clip: border-box, border-box, border-box;
+  background-origin: padding-box, padding-box, padding-box;
+  background-size: cover, auto auto, auto auto;
+  background-repeat: repeat, repeat, repeat;
+  box-shadow: none;
+  opacity: .88;
+
+  background-blend-mode: normal, normal, normal;
+  -webkit-text-stroke-width: 0;
+}
